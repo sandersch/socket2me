@@ -2,7 +2,9 @@
 
 ### Overview
 
-  * Originally developed in BSD as a C interface to the TCP/IP protocol suite
+  * Originally developed in BSD 4.2 as a C interface to the TCP/IP protocol suite
+    * Virtually unchanged since 1983
+    * TCP/IP was still a proposed standard at the time
   * API has approximately two dozen functions
   * A _socket_ is a (file) handle created by the OS that is associated with the end point of a communication channel
   * Bound to local or remote address
@@ -35,3 +37,10 @@
     * `gethostbyname()`,`gethostbyaddr()` - Handle network address mapping between hostnames and IPv4 addresses
     * `getipnodebyname()`,`getipnodebyaddr()` - Handle network address mapping between hostnames and IPv4/IPv6 addresses
     * `getservbyname()` - Identifies services by their humanly readable names
+
+### Portability and Availability
+
+  * Written in C but most languages have bindings
+  * Nearly ubiquitous OS support
+  * **You can use sockets without having to know the details of the underlying protocol**
+  * API operates one layer above the protocol implementation
