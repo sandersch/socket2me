@@ -6,7 +6,33 @@
 
 ## Berkeley Sockets
 
-## From Low Level to High Level APIs
+## Low Level APIs
+
+### Endpoints
+
+#### TCP vs. UDP
+
+#### IP Addresses
+
+##### IPv6
+
+##### DNS
+
+#### Loopbacks
+
+#### Ports
+
+## Establishing Connections
+
+### Server Lifecycle
+
+  1. create
+  1. bind
+  1. listen
+  1. accept
+  1. close
+
+### Client Lifecycle
 
 ## TCP Echoer
 
