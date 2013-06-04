@@ -5,6 +5,7 @@
  * tcpdump
  * curl
  * netstat
+ * nslookup/dig
 
 ### Documentation
 
