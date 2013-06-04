@@ -4,6 +4,7 @@
  * telnet
  * tcpdump
  * curl
+ * netstat
 
 ### Documentation
 
